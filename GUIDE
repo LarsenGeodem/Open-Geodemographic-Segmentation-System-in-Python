@@ -33,6 +33,11 @@ Multiply the data by these weights before clustering
 
 5. Clustering
 
-Using the script
+Using the GeodemKmeans.py script, cluster the data
+The silhouette charts will help in determining the number of clusters, the higher the value the more separation between clusters
+Analyze the resulting clusters through the cluster centroids and mapping to check known neighbourhoods for expected behaviours
+Adjust weights, variables, and cluster sizes until the results are satisfactory
 
-6. 
+6. Results
+
+You now have a functional cluster system. You can create names and descriptions for the clusters and apply the system however you please
