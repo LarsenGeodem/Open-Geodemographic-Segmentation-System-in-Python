@@ -3,7 +3,7 @@ Steps:
 1. Gather the data
 
 Most geodemographic segmentation systems use the census and can be dowloaded for free, such as the Canadian census (https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page_Download-Telecharger.cfm?Lang=E&Tab=1&Geo1=PR&Code1=01&Geo2=PR&Code2=01&SearchText=01&SearchType=Begins&SearchPR=01&B1=All&TABID=3&type=0)
-Make sure to download the data at the geographic level you want to work at, smaller is generally better, but too small might be difficult to work with and conflict with some privacy issues
+Make sure to download the data at the geographic level you want to work at, smaller is generally better
 
 Any other data should be downloaded as well, this could be location data, crime data, or any other data that is available to you
 the sample system here uses crime data downloaded from Toronto Police Service and location data from the City of Toronto's open data portal
@@ -27,3 +27,12 @@ To see the variables used in the sample system please see VariableList.xlsx
 Ensure that the data only includes the variables that have been selected for clustering
 
 4. Secondary Data Processing
+
+To emphasize characteristics, weights can be assigned to each variable to emphasize clustering on specific variables, these weights are included in VariableList.xlsx
+Multiply the data by these weights before clustering
+
+5. Clustering
+
+Using the script
+
+6. 
