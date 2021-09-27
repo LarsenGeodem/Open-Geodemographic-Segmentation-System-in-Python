@@ -5,4 +5,4 @@ In Canada there are no open geodemographic segmentation systems that are free fo
 
 The system created here is focused on studying crime in Toronto and uses data from the Canadian 2016 census, Toronto Police Service, and the City of Toronto's open data service.
 
-The resulting system, documentation, and scripts are in this repository for anyone to use.
+The resulting system (TorontoCrimeClusters.csv), documentation, and scripts are in this repository for anyone to use.
